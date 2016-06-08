@@ -25,6 +25,7 @@ $(function() {
     }
   };
 
+  //regular expression solution
   var regExLatin = function(sentence) {
     sentence = sentence.replace(/\b([aeiou][a-z]*)\b/gi, "$1ay");
     sentence = sentence.replace(/\b([bcdfghjklmnpqrstvwxy]+)([a-z]*)\b/gi, "$2$1ay");

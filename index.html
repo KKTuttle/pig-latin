@@ -2,7 +2,7 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <link href="css/boostrap.min.css" rel="stylesheet">
+    <link href="css/boostrap.min.css" rel="stylesheet" type="text/css">
     <script src="js/jquery-1.12.4.js" type="text/javascript"></script>
     <script src="js/bootstrap.min.js" type="text/javascript"></script>
     <script src="js/scripts.js" type="text/javascript"></script>
@@ -11,11 +11,12 @@
   <body>
     <div class="container">
       <form id="pigLatinForm">
+        <div class="form-group">
         <label for="userInput">Enter your word:</label>
         <input id="userInput" type="text" name="userInput">
 
         <button type="submit" name="button" class="btn btn-primary">Translate</button>
-
+        </div>
       </form>
       <div id="result">
         <p id="hard-way"></p>
